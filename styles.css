@@ -1,11 +1,21 @@
 body {
     background-color: rgb(255, 255, 165);
+    text-align: center;
+}
+img {
+    max-width: 100%;
 }
 
-.image{
-    border: 5px solid green;
-    border-radius: 10px;
-    height: 400px;
+.image {
+    border: 3px solid green;
+    border-radius: 6px;
+    filter: grayscale(1);
+    transition: .3s ease;
+}
+
+.image:hover {
+    filter: grayscale(0);
+    transform: scale(1.02);
 }
 
 .link-button {
