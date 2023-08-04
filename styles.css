@@ -1,5 +1,6 @@
 body {
     background-color: rgb(255, 255, 165);
+    text-align: center;
 }
 img {
     max-width: 100%;
@@ -8,7 +9,6 @@ img {
 .image {
     border: 3px solid green;
     border-radius: 6px;
-    /* height: 400px; */
     filter: grayscale(1);
     transition: .3s ease;
 }
@@ -23,7 +23,7 @@ img {
     color: black;
     border: 1px solid gray;
     background-color: #f2f2f2;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
 }
