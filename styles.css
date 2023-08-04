@@ -27,3 +27,8 @@ img {
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
 }
+
+.link-button:hover {
+    color: white;
+    background-color: rgba(250, 176, 37, 1);
+}
